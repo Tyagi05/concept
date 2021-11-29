@@ -17,5 +17,14 @@ public class TestMain {
         cat.eats();
         cat.roams();
         cat.sound();
+        System.out.println("******pet******");
+        pet dog2 = new dog();
+        dog2.beFriendly();
+        dog2.play();
+        System.out.println("***************");
+        pet cat2= new cat();
+        cat2.beFriendly();
+        cat2.play();
+        cat.eats();
     }
 }
