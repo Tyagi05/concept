@@ -11,9 +11,11 @@ public class dog extends Animal implements pet {
         System.out.println("is very friendly");
     }
 
-    void sound(){
+    void sound() {
         System.out.println("woof woof ");
     }
 
 
+    public void run(int i) {
+    }
 }
